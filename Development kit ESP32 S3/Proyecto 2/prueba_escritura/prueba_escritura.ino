@@ -35,7 +35,7 @@ void setup() {
     Serial.println("SDHC");
   } else {
     Serial.println("DESCONOCIDO");
-  }
+  }c:\Users\Nano\Desktop\Git Hub\ESP32\Development kit ESP32 S3\Freenove_Development_Kit_for_ESP32_S3-main\Sketches\Sketch_02_WS2812\Sketch_02_WS2812.ino
 
   uint64_t cardSize = SD_MMC.cardSize() / (1024 * 1024);
 
